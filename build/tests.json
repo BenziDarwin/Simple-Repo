@@ -1,0 +1,16 @@
+{
+  "contracts": {
+    "MainSafe": "1bc98555d7d5d2f35857cbe61eedddf03b88dd16",
+    "UserContract": "fc7316cbb6941761d4054d4ef495fc7c09493a30"
+  },
+  "tests": {
+    "tests/Unit tests/test_mainsafe.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..F",
+      "sha1": "06026ca00049b3cd14a086df209aa23df0e65d2b",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}

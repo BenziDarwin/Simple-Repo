@@ -1,0 +1,15 @@
+dotenv: .env
+
+
+wallets:
+  keys:
+    test_key: "${TEST_PRIVATE_KEY}"
+    key: "${PRIVATE_KEY}"
+
+dependencies:
+  - "OpenZeppelin/openzeppelin-contracts@4.7.1"
+
+compiler:
+  solc:
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.7.1"
